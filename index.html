@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scroll Reveal</title>
+    <link href="styles.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+        <nav class="nav">
+            <span class="menu">Menu</span>
+            <ul class="menulist">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="#pancakes">Pancakes</a></li>
+                <li><a href="#coffee">Coffee</a></li>
+                <li><a href="./about.html">About</a></li>
+            </ul>
+        </nav>
+    <main>
+    <section class="section">
+
+        <div class="img-box" data-reveal="left">
+            <img src="./images/img-1.jpg" alt="" class="img">
+        </div>
+
+        <div class="content-box" id="pancakes">
+            <h2 class="title"  data-reveal="left">Pancakes</h2>
+
+            <p class="text" data-reveal="left">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, facere, provident dignissimos earum nobis accusamus harum quasi corrupti, eos voluptate dolorum delectus cupiditate magnam. Quae facilis numquam amet quisquam. Nisi?
+            </p>
+        </div>
+
+         <div class="content-box" id="coffee">
+            <h2 class="title" data-reveal="left">Coffee</h2>
+
+            <p class="text" data-reveal="left">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, facere, provident dignissimos earum nobis accusamus harum quasi corrupti, eos voluptate dolorum delectus cupiditate magnam. Quae facilis numquam amet quisquam. Nisi?
+            </p>
+        </div>
+
+         <div class="img-box" data-reveal="right">
+            <img src="./images/img-2.jpg" alt="" class="img">
+        </div>
+
+    </section>
+    </main>
+
+    <script src="./index.js"></script>
+</body>
+</html>
